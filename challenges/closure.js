@@ -18,6 +18,7 @@ myFunction();
 
 // Explanation: 
 
+// The nested function can reference a variable that is declared outside of it's scope.
 
 /* Task 2: Counter */
 
