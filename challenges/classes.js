@@ -13,12 +13,10 @@ class CuboidMaker {
     this.height = [height];
   }
   volume() {
-    this.volume = 0;
-    return (this.volume = this.length * this.width * this.height);
+    return (this.length * this.width * this.height);
   }
   surfaceArea() {
-    this.surfaceArea = 0;
-    return (this.surfaceArea = 2 * (this.length * this.width + this.length * this.height + this.width * this.height));
+    return (2 * (this.length * this.width + this.length * this.height + this.width * this.height));
   }
 }
 
